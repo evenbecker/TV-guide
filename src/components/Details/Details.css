@@ -1,0 +1,27 @@
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__poster {
+    aspect-ratio: 2 / 3;
+    height: min-content;
+    width: 30%;
+
+    position: sticky;
+    top: 25px;
+}
+
+.details__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.details__heading {
+    margin: 15px;
+    padding-bottom: 2px;
+    border-bottom: var(--separator);
+}
