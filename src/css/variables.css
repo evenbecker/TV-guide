@@ -1,34 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    --color-site-background: #0a100d;
-    --color-main-border: #121b16;
+  --color-site-background: #0a100d;
+  --color-main-border: #121b16;
 
-    --color-primary: #0ff591;
+  --color-primary: #0ff591;
 
-    --border: 3px solid var(--color-primary);
-    --separator: 2px dotted var(--color-primary);
-    --border-radius: 10px;
-    --shadow: 0px 0px 15px 5px var(--color-primary);
+  --border: 3px solid var(--color-primary);
+  --border-search: 2px solid var(--color-primary);
+  --separator: 2px dotted var(--color-primary);
+  --border-radius: 6px;
+  --shadow: 0px 0px 9px 3px var(--color-primary);
 
-    --transition-duration: 0.3s;
+  --transition-duration: 0.3s;
 
-    --font-family: 'Montserrat', sans-serif;
-    --font-weight-heading: 700;
-    --font-weight-subheading: 600;
-    --font-weight-body: 400;
+  --font-family: "Montserrat", sans-serif;
+  --font-weight-heading: 700;
+  --font-weight-subheading: 600;
+  --font-weight-body: 400;
 
-    /* Desktop font sizes */
-    --font-size-logo: 75px;
-    --font-size-heading: 50px;
-    --font-size-subheading: 32px;
-    --font-size-body-large: 24px;
-    --font-size-body: 18px;
+  /* Desktop font sizes */
+  --font-size-logo: 75px;
+  --font-size-heading: 38px;
+  --font-size-subheading: 24px;
+  --font-size-body-large: 22px;
+  --font-size-body: 18px;
 
-    /* Mobile font sizes */
-    --font-size-logo-mobile: 50px;
-    --font-size-heading-mobile: 35px;
-    --font-size-subheading-mobile: 28px;
-    --font-size-body-large-mobile: 20px;
-    --font-size-body-mobile: 16px;
+  /* Mobile font sizes */
+  --font-size-logo-mobile: 50px;
+  --font-size-heading-mobile: 35px;
+  --font-size-subheading-mobile: 24px;
+  --font-size-body-large-mobile: 20px;
+  --font-size-body-mobile: 16px;
 }
