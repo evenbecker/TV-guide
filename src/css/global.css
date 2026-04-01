@@ -20,7 +20,7 @@ body {
 
 .main {
   margin: 6px auto;
-  width: 90%;
+  width: 94%;
   padding: 45px;
   background-color: var(--color-site-background);
   border: 3px solid var(--color-main-border);
@@ -56,20 +56,4 @@ body {
   font-size: var(--font-size-body);
   font-weight: var(--font-weight-body);
   color: var(--color-primary);
-}
-
-@media screen and (max-width: 800px) {
-  /* styling for mobile displays */
-  .text--heading {
-    font-size: var(--font-size-heading-mobile);
-  }
-  .text--subheading {
-    font-size: var(--font-size-subheading-mobile);
-  }
-  .text--menu {
-    font-size: var(--font-size-subheading-mobile);
-  }
-  .text--body {
-    font-size: var(--font-size-body-mobile);
-  }
 }

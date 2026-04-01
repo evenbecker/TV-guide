@@ -63,7 +63,9 @@ function Shows() {
             />
             <div className="results-container">
               {shows.map((show) => (
-                <Card key={show.imdbID} item={show} />
+                <div className="pseudo-col">
+                  <Card key={show.imdbID} item={show} />
+                </div>
               ))}
             </div>
           </>

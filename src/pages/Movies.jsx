@@ -61,7 +61,9 @@ function Movies() {
             />
             <div className="results-container">
               {movies.map((movie) => (
-                <Card key={movie.imdbID} item={movie} />
+                <div className="pseudo-col">
+                  <Card key={movie.imdbID} item={movie} />
+                </div>
               ))}
             </div>
           </>

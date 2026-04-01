@@ -15,17 +15,3 @@
   font-size: var(--font-size-body);
   font-weight: var(--font-weight-body);
 }
-
-@media screen and (max-width: 800px) {
-  /* styling for mobile displays */
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    height: auto;
-  }
-
-  .footer__link {
-    font-size: var(--font-size-body-mobile);
-  }
-}
