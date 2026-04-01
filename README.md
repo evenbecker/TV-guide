@@ -1,5 +1,7 @@
 # TV Guide
 
+![an app screenshot](./doc/screenshot.png)
+
 ## Tech Stack
 
 - Vite
