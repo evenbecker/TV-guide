@@ -5,9 +5,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="/" className="header__logo-link">
-        <a href="">
-          <img src="popcorn.png" alt="The TV Guide" />
-        </a>
+        <img src="/popcorn.png" alt="The TV Guide" />
       </Link>
       <nav className="header__nav">
         <NavLink to="/movies" className="header__nav-link">
