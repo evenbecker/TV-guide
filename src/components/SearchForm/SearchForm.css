@@ -35,6 +35,7 @@
   border-radius: var(--border-radius);
 
   outline: none;
+  transition: 0.3s;
 
   font-family: var(--font-family);
   font-size: var(--font-size-body);
@@ -45,7 +46,9 @@
 .search__input::placeholder {
   color: var(--color-primary);
 }
-
+.search__input:focus {
+  border: 3px solid #864daa;
+}
 .results-container {
   width: 100%;
   display: flex;

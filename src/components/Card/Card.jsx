@@ -4,7 +4,12 @@ import "./Card.css";
 
 function Card({ item }) {
   return (
-    <Link to={"/details/" + item.imdbID} className="card">
+    <Link
+      to={"/details/" + item.imdbID}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card"
+    >
       <img src={item.Poster} alt={item.Title} className="card__poster" />
 
       <h2 className="card__title">{item.Title}</h2>
