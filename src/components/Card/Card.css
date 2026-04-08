@@ -16,7 +16,7 @@
 
   box-shadow: var(--shadow);
   background-color: var(--color-site-background);
-  border: var(--border-search);
+  border: var(--border-card);
   border-radius: var(--border-radius);
 }
 

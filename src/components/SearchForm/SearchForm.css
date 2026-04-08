@@ -24,7 +24,7 @@
 .search__button:hover {
   transition-duration: var(--transition-duration);
   box-shadow: var(--shadow);
-  background-color: hsl(277, 38%, 12%);
+  background-color: hsl(154, 92%, 12%);
 }
 
 .search__input {
@@ -46,10 +46,10 @@
 }
 
 .search__input::placeholder {
-  color: var(--color-primary);
+  color: hsl(0, 0%, 68%);
 }
 .search__input:focus {
-  border: 3px solid hsl(277, 38%, 48%);
+  border: 3px solid hsl(154, 92%, 46%);
 }
 .results-container {
   width: 100%;

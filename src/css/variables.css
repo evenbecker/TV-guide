@@ -7,7 +7,8 @@
   --color-primary: #0ff591;
 
   --border: 3px solid var(--color-primary);
-  --border-search: 2px solid var(--color-primary);
+  --border-card: 2px solid var(--color-primary);
+  --border-search: 2px solid hsl(154, 92%, 36%);
   --separator: 2px dotted var(--color-primary);
   --border-radius: 6px;
   --shadow: 0px 0px 9px 3px var(--color-primary);
